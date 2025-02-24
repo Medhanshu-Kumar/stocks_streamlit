@@ -26,7 +26,7 @@ col1,col2 = st.columns(2)
 with col1:
     st.write(
         """
-            ## Daily Closing Price Chart
+            ## Daily Closing Price Chart.
         """
     )
     st.line_chart(ticker_df.Close)
